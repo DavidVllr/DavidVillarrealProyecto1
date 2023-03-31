@@ -1,0 +1,62 @@
+// album 
+.img-1{
+    width: auto;
+    height: 400px;
+    object-fit: cover;
+}
+.parrafo-main1{
+    width: 100%;
+    height: auto;
+    .parrafo-main2{
+        width: 50%;
+    }
+}
+.img-contenedor{
+    width: 100%;
+    height: auto;
+    .img-2{
+        width: 100%;
+        img{
+            height: 300px;
+            width: 300px;
+            object-fit: cover;
+            opacity: 1;
+            transition: opacity 1s;
+            &:hover{
+                opacity: 0.2;
+            }
+        }
+    }
+}
+.parrafo-main3{
+    width: 100%;
+    height: auto;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(../multimedia/album/bakg1.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    object-fit: cover;
+    .parrafo-main4{
+        width: 50%;
+        color: white;
+        h2{
+            font-size: 50px;
+        }
+    }
+}
+.parrafo-main-1{
+    width: 100%;
+    height: auto;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(../multimedia/album/bakg2.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    object-fit: cover;
+    .parrafo-main4{
+        width: 50%;
+        color: white;
+        h2{
+            font-size: 50px;
+        }
+    }
+}

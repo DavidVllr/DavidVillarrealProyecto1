@@ -1,0 +1,45 @@
+// inicio
+.contenedor-m1{
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(../multimedia/inicio/index-back.avif);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    height: 800px;
+    .parrafo-m1{
+        font-family: 'Signika Negative', sans-serif;
+        color: white;
+        width: 70%;
+        font-size: 20px;
+        overflow: hidden;
+        h2{
+            font-size: 50px;
+            font-family: 'Comic Neue', cursive;
+        }
+    }
+}
+.contenedor-m2{
+    height: auto;
+    margin: 40px;
+    .caja-m3{
+        width: 60%;
+    }
+}
+
+.card-img-top{
+    width: 200px; 
+    height: 300px; 
+    object-fit: cover;
+    opacity: 1;
+	transition: opacity 1s;
+    &:hover{ 
+        overflow: hidden;
+        opacity: 0.2;
+    }
+}
+.parrafo-d1{
+    width: 100%;
+    height: auto;
+    .parrafo-d2{
+        width: 400px;
+    }
+}
