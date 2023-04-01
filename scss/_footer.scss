@@ -181,5 +181,10 @@
         .footer-f{
             display: flex;
             flex-direction: column;
+            width: inherit;
+            .footer-g{
+                width: 300px;
+                height: auto;
+            }
         }
     }

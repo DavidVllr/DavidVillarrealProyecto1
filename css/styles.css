@@ -31,7 +31,7 @@ span {
   height: 41px;
 }
 .nav-1 h1 {
-  color: rgba(0, 0, 0, 0.7960784314);
+  color: rgba(0, 0, 0, 0.6941176471);
   font-size: 40px;
   font-family: "Montserrat", sans-serif;
   margin-bottom: 8px;
@@ -73,10 +73,6 @@ span {
 }
 .contenedor-h1 h1 {
   font-family: "Montserrat", sans-serif;
-}
-.contenedor-h1:hover {
-  transition: 1s all;
-  color: crimson;
 }
 
 @media (max-width: 992px) {
@@ -320,6 +316,11 @@ span {
 .footer-e .footer-f {
   display: flex;
   flex-direction: column;
+  width: inherit;
+}
+.footer-e .footer-f .footer-g {
+  width: 300px;
+  height: auto;
 }
 
 .contenedor-m1 {
