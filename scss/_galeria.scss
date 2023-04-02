@@ -3,14 +3,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 80px;
     .galeria{
         width: 750;
         display: grid;
         grid-template-columns: 250px 250px 250px;
         grid-template-rows: 250px 250px 250px;
         gap: 10px;
-        z-index: -10;
+        margin-bottom: 10px;
         .img-a{
             grid-column: 1/4;
         }

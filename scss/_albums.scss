@@ -15,7 +15,7 @@
     width: 100%;
     height: auto;
     .img-2{
-        width: 100%;
+        width: 80%;
         img{
             height: 300px;
             width: 300px;
@@ -30,14 +30,14 @@
 }
 .parrafo-main3{
     width: 100%;
-    height: auto;
+    height: 50vh;
     background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(../multimedia/album/bakg1.jpg);
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
     object-fit: cover;
     .parrafo-main4{
-        width: 50%;
+        width: 80%;
         color: white;
         h2{
             font-size: 50px;
@@ -46,14 +46,14 @@
 }
 .parrafo-main-1{
     width: 100%;
-    height: auto;
+    height: 50vh;
     background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(../multimedia/album/bakg2.jpg);
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
     object-fit: cover;
     .parrafo-main4{
-        width: 50%;
+        width: 80%;
         color: white;
         h2{
             font-size: 50px;
