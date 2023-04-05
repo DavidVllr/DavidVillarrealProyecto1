@@ -11,7 +11,7 @@
         width: 100%;
         height: 100vh;
         text-align: center;
-        background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(../multimedia/album/bakg3.jpg);
+        background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(../multimedia/album/carrusel-backg/back3.jpg);
         background-size: cover;
         background-attachment: fixed;
         .histo-3{
@@ -35,10 +35,12 @@
         justify-content: space-evenly;
         align-items: center;
         width: 100%;
-        height: 120vh;
+        height: auto;
+        padding-top: 100px;
+        padding-bottom: 100px;
         .img-1{
             height: 400px;
-            width: 100%;
+            width: 400px;
             object-fit: cover;
         }
         .histo-5{
@@ -47,11 +49,6 @@
             text-align: center;
             width: 30%;
             height: auto;
-            .img-1{
-                height: 400px;
-                width: 100%;
-                object-fit: cover;
-            }
         }
     }
     .histo-6{
@@ -59,10 +56,17 @@
         justify-content: space-evenly;
         align-items: center;
         width: 100%;
-        height: 120vh;
+        height: auto;
+        padding-top: 100px;
+        padding-bottom: 100px;
         background: rgb(0,0,0);
         background: linear-gradient(131deg, rgba(0,0,0,1) 7%, rgba(11,11,11,1) 10%, rgba(0,0,0,1) 12%, rgba(0,0,0,1) 18%, rgba(0,0,0,1) 22%, rgba(117,117,117,1) 25%, rgba(4,3,3,1) 32%);
         color: white;
+        .img-1{
+            height: 400px;
+            width: 400px;
+            object-fit: cover;
+        }
         .histo-7{
             display: flex;
             flex-direction: column;
