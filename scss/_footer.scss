@@ -119,72 +119,6 @@
 
 
 
-// footer bootstrap
-
-.footer-1{
-    width: 100%;
-    background-color: #1b1b1b;
-    .footer-2{
-        width: 90%;
-        height: 100%;
-        .footer-3{
-            width: 100%;
-            .form-footer{
-                width: 300px;
-                color: #ffffff;
-                button{
-                    width: 70px;
-                    margin-top: 10px;
-                    transition: 1.5s;
-                    border-radius: 11px;
-                    &:hover{
-                        cursor: pointer;
-                        color: rgb(248, 244, 245);
-                        background: linear-gradient(220.55deg,#000000 0%,#7d1f2b 100%);
-                    }
-                }
-            }
-            .links-footer{
-                width: auto;
-                li{
-                    font-size: 18px;
-                    list-style: none;
-                    a{
-                        color: #ffffff;
-                        text-decoration: none;
-                        transition: 1s;
-                        &:hover{
-                            color: crimson;
-                        }
-                    }
-                }
-            }
-        }
-    }
-}
-.footer-4{
-    color: #ffffff;
-    background-color: #212121;
-    height: auto;
-    .footer-5{
-        font-family: 'Mynerve', cursive;
-        height: auto;
-        .redes-footer{
-            width: 150px;
-            a{
-                font-size: 20px;
-                color: #ffffff;
-                transition: 1s;
-                &:hover{
-                    color: crimson;
-                }
-            }
-        }
-    }
-}
-
-
-// media query footer a 768px
 
 
 @media (max-width: 992px){
@@ -202,6 +136,7 @@
             text-align: center;
             justify-content: center;
             width: 100%;
+            height: auto;
         }
         .footer-c{
             display: flex;
@@ -232,8 +167,6 @@
             }
         }
     }
-}
-
     .footer-e{
         height: 100px;
         width: 100%;
@@ -248,5 +181,7 @@
                 width: 300px;
                 height: auto;
             }
+
         }
     }
+}
