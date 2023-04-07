@@ -1,0 +1,180 @@
+@mixin inicio($ancho, $alto){
+    width: $ancho;
+    height: $alto;
+}
+.main-2{
+    @include inicio(100%,100%);
+    .main-3{
+        @include inicio(50%,auto);
+    }
+}
+.main-4{
+    @include inicio(100%,auto);
+    .main-5{
+        @include inicio(100%,auto);
+        .main-6{
+            @include inicio(100%,auto);
+            .contenedor{
+                @include inicio(50%,auto);
+                .main-7{
+                    @include inicio(100%,auto);
+                }
+            }
+        }
+        .main-8{
+            @include inicio(100%,auto);
+            .main-9{
+                @include inicio(100%,auto);
+            }
+        }
+    }
+    
+}
+.main-10{
+    @include inicio(100%,auto);
+    .main-11{
+        @include inicio(100%,auto);
+        .main-12{
+            @include inicio(33%,auto);
+        }
+        .main-13{
+            @include inicio(33%,auto);
+        }
+        .main-14{
+            @include inicio(33%,auto);
+        }
+    }
+}
+.main-15{
+    @include inicio(100%,auto);
+    .main-16{
+        @include inicio(100%,auto);
+        .main-17{
+            @include inicio(50%,auto);
+            img{
+                @include inicio(auto,400px);
+            }
+        }
+    }
+}
+
+
+
+@mixin album($ancho, $alto){
+    width: $ancho;
+    height: $alto;
+}
+.album-1{
+    @include album(100%,90vh);
+    .album-2{
+        @include album(60%,auto);
+    }
+}
+.album-5{
+    @include album(100%,auto);
+    .album-6{
+        @include album(60%,auto);
+    }
+    .album-7{
+        @include album(100%,auto);
+        .album-8{
+            @include album(80%,auto);
+            img{
+                @include album(300px,300px);
+            }
+        }
+    }
+    .album-9{
+        @include album(100%,auto);
+        .album-10{
+            @include album(60%,auto);
+        }
+    }
+    .album-12{
+        @include album(100%,50vh);
+        .album-13{
+            @include album(50%,auto);
+        }
+    }
+}
+
+
+
+@mixin galeria($ancho, $alto){
+    width: $ancho;
+    height: $alto;
+}
+.fotos{
+    @include galeria(100%,auto);
+    .galeria{
+        @include galeria(750px,auto);
+        img{
+                @include galeria(100%,100%);
+        }
+    }
+}
+
+
+
+@mixin historia($ancho, $alto){
+    width: $ancho;
+    height: $alto;
+}
+.histo-1{
+    @include historia(100%,auto);
+    .histo-2{
+        @include historia(100%,100vh);
+        .histo-3{
+            @include historia(50%,auto);
+        }
+    }
+    .histo-4{
+        @include historia(100%,auto);
+        .img-1{
+            @include historia(400px,400px);
+        }
+        .histo-5{
+            @include historia(30%,auto);
+        }
+    }
+    .histo-6{
+        @include historia(100%,auto);
+        .img-1{
+            @include historia(400px,400px);
+        }
+        .histo-7{
+            @include historia(30%,auto);
+        }
+    }
+}
+.histo-8{
+    @include historia(100%,auto);
+    .histo-9{
+        @include historia(60%,auto)
+    }
+}
+
+
+
+@mixin registro($ancho, $alto){
+    width: $ancho;
+    height: $alto;
+}
+.registro-1{
+    @include registro(100%,100vh);
+    .registro-2{
+        @include registro(80%,80%);
+        .registro-3{
+            @include registro(100%,100%);
+            .registro-4{
+                @include registro(40%,auto);
+            }
+            .registro-5{
+                @include registro(40%,auto);
+                input{
+                    @include registro(100%,auto);
+                }
+            }
+        }
+    }
+}

@@ -53,16 +53,6 @@
         }
     }
 
-// nav bootstrap
-.contenedor-h1{
-    background-color: rgb(238, 239, 238);
-    h1{
-        font-family: 'Montserrat', sans-serif;
-    }
-    
-}
-
-// nav a 992px
 
 @media (max-width: 992px){
     .nav-1{
@@ -93,7 +83,7 @@
                 display: flex;
                 position: absolute;
                 flex-direction: column;
-                background-color: #f8f9fa;
+                background-color: $mainColor;
                 width: 100%;
                 z-index: 10;
                 top: 60px;
@@ -109,8 +99,6 @@
         }
     }
 }
-
-// nav a 576px
 
 @media (max-width: 576px){
     .nav-1{
