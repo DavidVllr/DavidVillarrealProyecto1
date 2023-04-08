@@ -15,16 +15,19 @@
         .main-6{
             @include inicio(100%,auto);
             .contenedor{
-                @include inicio(50%,auto);
+                @include inicio(100%,auto);
                 .main-7{
-                    @include inicio(100%,auto);
+                    @include inicio(80%,auto);
                 }
             }
         }
         .main-8{
             @include inicio(100%,auto);
-            .main-9{
+            .contenedor{
                 @include inicio(100%,auto);
+                .main-9{
+                    @include inicio(80%,auto);
+                }
             }
         }
     }
@@ -70,6 +73,7 @@
         @include album(60%,auto);
     }
 }
+
 .album-5{
     @include album(100%,auto);
     .album-6{

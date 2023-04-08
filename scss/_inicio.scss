@@ -207,9 +207,8 @@
     .main-4{
         display: flex;
         justify-content: center;
-        height: 70vh;
         width: 100%;
-        overflow: hidden;
+        height: auto;
         .main-5{
             display: flex;
             flex-direction: column;
@@ -228,12 +227,12 @@
                     display: flex;
                     align-items: center;
                     justify-content: center;
-                    width: 70%;
-                    height: 100%;
+                    width: 100%;
+                    height: auto;
                     img{
                         object-fit: cover;
                         width: 100%;
-                        height: 100%;
+                        height: auto;
                     }
                 }
                 .main-7{
@@ -255,12 +254,12 @@
                     display: flex;
                     align-items: center;
                     justify-content: center;
-                    width: 70%;
+                    width: 100%;
                     height: auto;
                     img{
                         object-fit: cover;
                         width: 100%;
-                        height: 80%;
+                        height: auto;
                     }
                 }
                 .main-9{
@@ -319,8 +318,9 @@
             display: flex;
             flex-direction: column;
             justify-content: center;
+            align-items: center;
             width: 100%;
-            height: 90vh;
+            height: auto;
             .main-17{
                 display: flex;
                 justify-content: center;
@@ -328,7 +328,7 @@
                 position: absolute;
                 padding: 10px;
                 width: 80%;
-                z-index: 1;
+                height: auto;
                 border: 2px solid $border-color;
                 border-radius: 12px;
                 background-color: #151615d2;
@@ -336,13 +336,12 @@
             .main-18{
                 display: flex;
                 justify-content: center;
-                position: relative;
                 width: 100%;
-                height: 90vh;
+                height: auto;
                 img{
                     object-fit: cover;
                     width: 100%;
-                    height: auto;
+                    height: 100%;
                 }
             }
         }
@@ -415,22 +414,23 @@
     .main-15{
         display: flex;
         justify-content: center;
-        height: 120vh;
+        height: auto;
         width: 100%;
         .main-16{
             display: flex;
             flex-direction: column;
             justify-content: center;
+            align-items: center;
             width: 100%;
-            height: 90vh;
+            height: auto;
             .main-17{
                 display: flex;
                 justify-content: center;
                 align-items: center;
-                position: absolute;
+                position: relative;
                 padding: 10px;
-                width: 80%;
-                z-index: 1;
+                width: 90%;
+                height: auto;
                 border: 2px solid $border-color;
                 border-radius: 12px;
                 background-color: #151615d2;
@@ -438,13 +438,12 @@
             .main-18{
                 display: flex;
                 justify-content: center;
-                position: relative;
                 width: 100%;
-                height: 90vh;
+                height: auto;
                 img{
                     object-fit: cover;
                     width: 100%;
-                    height: auto;
+                    height: 100%;
                 }
             }
         }
