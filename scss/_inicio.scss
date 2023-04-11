@@ -19,8 +19,9 @@
             border-radius: 12px;
             background-color: #15161566;
             color: $mainColor;
+            font-size: 23px;
             p{
-                font-size: 17px;
+                font-size: 19px;
             }
         }
     }
@@ -29,75 +30,15 @@
 .main-4{
     display: flex;
     justify-content: center;
-    background-size: cover;
-    background-attachment: fixed;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url(../multimedia/inicio/backg-index.jpg);
-    .main-5{
-        display: flex;
-        text-align: center;
-        align-items: center;
-        justify-content: space-evenly;
-        margin: 50px 0px;
-        .main-6{
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            .contenedor{
-                display: flex;
-                justify-content: center;
-                .main-7{
-                    display: flex;
-                    justify-content: center;
-                    color: $mainColor;
-                    border: 2px solid $border-color;
-                    border-radius: 12px;
-                    background-color: #151615c3;
-                    padding: 10px;
-                    h3{
-                        font-family: 'Prompt', sans-serif;
-                        font-size: 20px;
-                    }
-                }
-            }
-        }
-        .main-8{
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            .contenedor{
-                display: flex;
-                justify-content: center;
-                .main-9{
-                    display: flex;
-                    justify-content: center;
-                    color: $mainColor;
-                    border: 2px solid $border-color;
-                    border-radius: 12px;
-                    background-color: #151615c3;
-                    padding: 10px;
-                    h3{
-                        font-size: 25px;
-                    }
-                }
-            }
-        }
-    }
-}
-
-.main-10{
-    display: flex;
-    justify-content: center;
     padding: 70px 0px;
-    background-color: #000000e8;
-    .main-11{
+    background-color: $background;
+    .main-5{
         display: flex;
         align-items: start;
         justify-content: space-evenly;
         text-align: center;
         color: $mainColor;
-        .main-12{
+        .main-6{
             display: flex;
             flex-direction: column;
             justify-content: center;
@@ -115,7 +56,7 @@
                 text-decoration: none;
             }
         }
-        .main-13{
+        .main-7{
             display: flex;
             flex-direction: column;
             justify-content: center;
@@ -132,7 +73,7 @@
                 padding: 30px;
             }
         }
-        .main-14{
+        .main-8{
             display: flex;
             flex-direction: column;
             justify-content: center;
@@ -152,16 +93,16 @@
     }
 }
 
-.main-15{
+.main-9{
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: #000000e6;
-    .main-16{
+    .main-10{
         display: flex;
         align-items: center;
         justify-content: center;
-        .main-17{
+        .main-11{
             display: flex;
             flex-direction: column;
             justify-content: center;
@@ -174,7 +115,7 @@
                 padding: 30px;
             }
         }
-        .main-18{
+        .main-12{
             display: flex;
             img{
                 height: 400px;
@@ -207,8 +148,10 @@
     .main-4{
         display: flex;
         justify-content: center;
+        align-items: center;
         width: 100%;
         height: auto;
+        padding: 0;
         .main-5{
             display: flex;
             flex-direction: column;
@@ -216,116 +159,43 @@
             align-items: center;
             width: 100%;
             height: auto;
+            margin: 40px 0px;
             .main-6{
                 display: flex;
                 justify-content: center;
-                align-items: center;
-                width: 100%;
-                height: auto;
-                margin-bottom: 30px;
-                .contenedor{
-                    display: flex;
-                    align-items: center;
-                    justify-content: center;
-                    width: 100%;
-                    height: auto;
-                    img{
-                        object-fit: cover;
-                        width: 100%;
-                        height: auto;
-                    }
-                }
-                .main-7{
-                    width: 90%;
-                    height: auto;
-                    color: $mainColor;
-                    border: 2px solid $border-color;
-                    border-radius: 12px;
-                    background-color: #151615c3;
-                }
+                width: 90%;
+                margin-bottom: 50px;
+            }
+            .main-7{
+                display: flex;
+                justify-content: center;
+                width: 90%;
+                margin-bottom: 50px;
             }
             .main-8{
                 display: flex;
                 justify-content: center;
-                align-items: center;
                 width: 90%;
-                height: auto;
-                .contenedor{
-                    display: flex;
-                    align-items: center;
-                    justify-content: center;
-                    width: 100%;
-                    height: auto;
-                    img{
-                        object-fit: cover;
-                        width: 100%;
-                        height: auto;
-                    }
-                }
-                .main-9{
-                    width: 80%;
-                    height: auto;
-                    color: $mainColor;
-                    border: 2px solid $border-color;
-                    border-radius: 12px;
-                    background-color: #151615c3;
-                    padding: 10px;
-                }
+                margin-bottom: 50px;
             }
         }
     }
-    .main-10{
+    .main-9{
         display: flex;
         justify-content: center;
-        align-items: center;
-        width: 100%;
         height: auto;
-        padding: 0;
-        .main-11{
+        width: 100%;
+        .main-10{
             display: flex;
             flex-direction: column;
             justify-content: center;
             align-items: center;
             width: 100%;
             height: auto;
-            margin: 40px 0px;
-            .main-12{
-                display: flex;
-                justify-content: center;
-                width: 90%;
-                margin-bottom: 50px;
-            }
-            .main-13{
-                display: flex;
-                justify-content: center;
-                width: 90%;
-                margin-bottom: 50px;
-            }
-            .main-14{
-                display: flex;
-                justify-content: center;
-                width: 90%;
-                margin-bottom: 50px;
-            }
-        }
-    }
-    .main-15{
-        display: flex;
-        justify-content: center;
-        height: auto;
-        width: 100%;
-        .main-16{
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            width: 100%;
-            height: auto;
-            .main-17{
+            .main-11{
                 display: flex;
                 justify-content: center;
                 align-items: center;
-                position: absolute;
                 padding: 10px;
                 width: 80%;
                 height: auto;
@@ -333,15 +203,15 @@
                 border-radius: 12px;
                 background-color: #151615d2;
             }
-            .main-18{
+            .main-12{
                 display: flex;
                 justify-content: center;
                 width: 100%;
                 height: auto;
                 img{
                     object-fit: cover;
-                    width: 100%;
-                    height: 100%;
+                    width: 0%;
+                    height: 0%;
                 }
             }
         }

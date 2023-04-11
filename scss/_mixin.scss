@@ -13,46 +13,21 @@
     .main-5{
         @include inicio(100%,auto);
         .main-6{
-            @include inicio(100%,auto);
-            .contenedor{
-                @include inicio(100%,auto);
-                .main-7{
-                    @include inicio(80%,auto);
-                }
-            }
+            @include inicio(33%,auto);
+        }
+        .main-7{
+            @include inicio(33%,auto);
         }
         .main-8{
-            @include inicio(100%,auto);
-            .contenedor{
-                @include inicio(100%,auto);
-                .main-9{
-                    @include inicio(80%,auto);
-                }
-            }
-        }
-    }
-    
-}
-.main-10{
-    @include inicio(100%,auto);
-    .main-11{
-        @include inicio(100%,auto);
-        .main-12{
-            @include inicio(33%,auto);
-        }
-        .main-13{
-            @include inicio(33%,auto);
-        }
-        .main-14{
             @include inicio(33%,auto);
         }
     }
 }
-.main-15{
+.main-9{
     @include inicio(100%,auto);
-    .main-16{
+    .main-10{
         @include inicio(100%,auto);
-        .main-17{
+        .main-11{
             @include inicio(50%,auto);
             img{
                 @include inicio(auto,400px);

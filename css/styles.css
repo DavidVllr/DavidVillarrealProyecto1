@@ -18,64 +18,31 @@
   height: auto;
 }
 .main-4 .main-5 .main-6 {
-  width: 100%;
+  width: 33%;
   height: auto;
 }
-.main-4 .main-5 .main-6 .contenedor {
-  width: 100%;
-  height: auto;
-}
-.main-4 .main-5 .main-6 .contenedor .main-7 {
-  width: 80%;
+.main-4 .main-5 .main-7 {
+  width: 33%;
   height: auto;
 }
 .main-4 .main-5 .main-8 {
-  width: 100%;
-  height: auto;
-}
-.main-4 .main-5 .main-8 .contenedor {
-  width: 100%;
-  height: auto;
-}
-.main-4 .main-5 .main-8 .contenedor .main-9 {
-  width: 80%;
-  height: auto;
-}
-
-.main-10 {
-  width: 100%;
-  height: auto;
-}
-.main-10 .main-11 {
-  width: 100%;
-  height: auto;
-}
-.main-10 .main-11 .main-12 {
-  width: 33%;
-  height: auto;
-}
-.main-10 .main-11 .main-13 {
-  width: 33%;
-  height: auto;
-}
-.main-10 .main-11 .main-14 {
   width: 33%;
   height: auto;
 }
 
-.main-15 {
+.main-9 {
   width: 100%;
   height: auto;
 }
-.main-15 .main-16 {
+.main-9 .main-10 {
   width: 100%;
   height: auto;
 }
-.main-15 .main-16 .main-17 {
+.main-9 .main-10 .main-11 {
   width: 50%;
   height: auto;
 }
-.main-15 .main-16 .main-17 img {
+.main-9 .main-10 .main-11 img {
   width: auto;
   height: 400px;
 }
@@ -1032,95 +999,36 @@ button:hover {
   border-radius: 12px;
   background-color: rgba(21, 22, 21, 0.4);
   color: white;
+  font-size: 23px;
 }
 .main-1 .main-2 .main-3 p {
-  font-size: 17px;
+  font-size: 19px;
 }
 
 .main-4 {
   display: flex;
   justify-content: center;
-  background-size: cover;
-  background-attachment: fixed;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../multimedia/inicio/backg-index.jpg);
+  padding: 70px 0px;
+  background-color: rgb(23, 21, 21);
 }
 .main-4 .main-5 {
-  display: flex;
-  text-align: center;
-  align-items: center;
-  justify-content: space-evenly;
-  margin: 50px 0px;
-}
-.main-4 .main-5 .main-6 {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-.main-4 .main-5 .main-6 .contenedor {
-  display: flex;
-  justify-content: center;
-}
-.main-4 .main-5 .main-6 .contenedor .main-7 {
-  display: flex;
-  justify-content: center;
-  color: white;
-  border: 2px solid rgba(21, 22, 21, 0.4);
-  border-radius: 12px;
-  background-color: rgba(21, 22, 21, 0.7647058824);
-  padding: 10px;
-}
-.main-4 .main-5 .main-6 .contenedor .main-7 h3 {
-  font-family: "Prompt", sans-serif;
-  font-size: 20px;
-}
-.main-4 .main-5 .main-8 {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-.main-4 .main-5 .main-8 .contenedor {
-  display: flex;
-  justify-content: center;
-}
-.main-4 .main-5 .main-8 .contenedor .main-9 {
-  display: flex;
-  justify-content: center;
-  color: white;
-  border: 2px solid rgba(21, 22, 21, 0.4);
-  border-radius: 12px;
-  background-color: rgba(21, 22, 21, 0.7647058824);
-  padding: 10px;
-}
-.main-4 .main-5 .main-8 .contenedor .main-9 h3 {
-  font-size: 25px;
-}
-
-.main-10 {
-  display: flex;
-  justify-content: center;
-  padding: 70px 0px;
-  background-color: rgba(0, 0, 0, 0.9098039216);
-}
-.main-10 .main-11 {
   display: flex;
   align-items: start;
   justify-content: space-evenly;
   text-align: center;
   color: white;
 }
-.main-10 .main-11 .main-12 {
+.main-4 .main-5 .main-6 {
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
-.main-10 .main-11 .main-12 h3 {
+.main-4 .main-5 .main-6 h3 {
   color: crimson;
   font-size: 40px;
   text-decoration: overline;
 }
-.main-10 .main-11 .main-12 p {
+.main-4 .main-5 .main-6 p {
   font-size: 17px;
   border: 1px solid rgba(21, 22, 21, 0.4);
   background-color: #1b1a1a;
@@ -1128,34 +1036,34 @@ button:hover {
   padding: 30px;
   text-decoration: none;
 }
-.main-10 .main-11 .main-13 {
+.main-4 .main-5 .main-7 {
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
-.main-10 .main-11 .main-13 h3 {
+.main-4 .main-5 .main-7 h3 {
   color: crimson;
   font-size: 40px;
   text-decoration: overline;
 }
-.main-10 .main-11 .main-13 p {
+.main-4 .main-5 .main-7 p {
   font-size: 17px;
   border: 1px solid rgba(21, 22, 21, 0.4);
   background-color: #1b1a1a;
   border-radius: 20px;
   padding: 30px;
 }
-.main-10 .main-11 .main-14 {
+.main-4 .main-5 .main-8 {
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
-.main-10 .main-11 .main-14 h3 {
+.main-4 .main-5 .main-8 h3 {
   color: crimson;
   font-size: 40px;
   text-decoration: overline;
 }
-.main-10 .main-11 .main-14 p {
+.main-4 .main-5 .main-8 p {
   font-size: 17px;
   border: 1px solid rgba(21, 22, 21, 0.4);
   background-color: #1b1a1a;
@@ -1163,18 +1071,18 @@ button:hover {
   padding: 30px;
 }
 
-.main-15 {
+.main-9 {
   display: flex;
   align-items: center;
   justify-content: center;
   background-color: rgba(0, 0, 0, 0.9019607843);
 }
-.main-15 .main-16 {
+.main-9 .main-10 {
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.main-15 .main-16 .main-17 {
+.main-9 .main-10 .main-11 {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -1183,14 +1091,14 @@ button:hover {
   color: white;
   font-size: 30px;
 }
-.main-15 .main-16 .main-17 p {
+.main-9 .main-10 .main-11 p {
   font-size: 20px;
   padding: 30px;
 }
-.main-15 .main-16 .main-18 {
+.main-9 .main-10 .main-12 {
   display: flex;
 }
-.main-15 .main-16 .main-18 img {
+.main-9 .main-10 .main-12 img {
   height: 400px;
   width: auto;
   object-fit: cover;
@@ -1218,8 +1126,10 @@ button:hover {
   .main-4 {
     display: flex;
     justify-content: center;
+    align-items: center;
     width: 100%;
     height: auto;
+    padding: 0;
   }
   .main-4 .main-5 {
     display: flex;
@@ -1228,105 +1138,33 @@ button:hover {
     align-items: center;
     width: 100%;
     height: auto;
+    margin: 40px 0px;
   }
   .main-4 .main-5 .main-6 {
     display: flex;
     justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: auto;
-    margin-bottom: 30px;
-  }
-  .main-4 .main-5 .main-6 .contenedor {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    height: auto;
-  }
-  .main-4 .main-5 .main-6 .contenedor img {
-    object-fit: cover;
-    width: 100%;
-    height: auto;
-  }
-  .main-4 .main-5 .main-6 .main-7 {
     width: 90%;
-    height: auto;
-    color: white;
-    border: 2px solid rgba(21, 22, 21, 0.4);
-    border-radius: 12px;
-    background-color: rgba(21, 22, 21, 0.7647058824);
+    margin-bottom: 50px;
+  }
+  .main-4 .main-5 .main-7 {
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    margin-bottom: 50px;
   }
   .main-4 .main-5 .main-8 {
     display: flex;
     justify-content: center;
-    align-items: center;
-    width: 90%;
-    height: auto;
-  }
-  .main-4 .main-5 .main-8 .contenedor {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    height: auto;
-  }
-  .main-4 .main-5 .main-8 .contenedor img {
-    object-fit: cover;
-    width: 100%;
-    height: auto;
-  }
-  .main-4 .main-5 .main-8 .main-9 {
-    width: 80%;
-    height: auto;
-    color: white;
-    border: 2px solid rgba(21, 22, 21, 0.4);
-    border-radius: 12px;
-    background-color: rgba(21, 22, 21, 0.7647058824);
-    padding: 10px;
-  }
-  .main-10 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: auto;
-    padding: 0;
-  }
-  .main-10 .main-11 {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: auto;
-    margin: 40px 0px;
-  }
-  .main-10 .main-11 .main-12 {
-    display: flex;
-    justify-content: center;
     width: 90%;
     margin-bottom: 50px;
   }
-  .main-10 .main-11 .main-13 {
-    display: flex;
-    justify-content: center;
-    width: 90%;
-    margin-bottom: 50px;
-  }
-  .main-10 .main-11 .main-14 {
-    display: flex;
-    justify-content: center;
-    width: 90%;
-    margin-bottom: 50px;
-  }
-  .main-15 {
+  .main-9 {
     display: flex;
     justify-content: center;
     height: auto;
     width: 100%;
   }
-  .main-15 .main-16 {
+  .main-9 .main-10 {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -1334,11 +1172,10 @@ button:hover {
     width: 100%;
     height: auto;
   }
-  .main-15 .main-16 .main-17 {
+  .main-9 .main-10 .main-11 {
     display: flex;
     justify-content: center;
     align-items: center;
-    position: absolute;
     padding: 10px;
     width: 80%;
     height: auto;
@@ -1346,16 +1183,16 @@ button:hover {
     border-radius: 12px;
     background-color: rgba(21, 22, 21, 0.8235294118);
   }
-  .main-15 .main-16 .main-18 {
+  .main-9 .main-10 .main-12 {
     display: flex;
     justify-content: center;
     width: 100%;
     height: auto;
   }
-  .main-15 .main-16 .main-18 img {
+  .main-9 .main-10 .main-12 img {
     object-fit: cover;
-    width: 100%;
-    height: 100%;
+    width: 0%;
+    height: 0%;
   }
 }
 @media (max-width: 576px) {
