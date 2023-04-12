@@ -442,7 +442,7 @@ span {
   }
   .album-5 .album-7 .album-8 img {
     width: 320px;
-    height: auto;
+    height: 250px;
     object-fit: cover;
   }
 }
