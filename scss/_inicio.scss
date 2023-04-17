@@ -289,8 +289,6 @@
             }
         }
     }
-}
-@media (max-width: 567px){
     .main-4{
         display: flex;
         justify-content: center;
@@ -312,7 +310,6 @@
             .linea{
                 display: flex;
                 width: 80%;
-                
                 height: 1px;
                 border: 1px solid $redes;
             }
@@ -349,6 +346,142 @@
                 h4{
                     font-size: 20px;
                 }
+            }
+        }
+    }
+}
+@media (max-width: 568px){
+    .main-8{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        height: auto;
+        padding: 50px 0;
+        background-color: $background;
+        gap: 40px;
+        .main-9{
+            display: flex;
+            text-align: center;
+            flex-direction: column;
+            justify-content: center;
+            gap: 10px;
+            color: $mainColor;
+            .main-11{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 100%;
+                height: auto;
+                .main-12{
+                    display: flex;
+                    flex-wrap: nowrap;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                    width: 90%;
+                    .main-13{
+                        display: flex;
+                        flex-direction: column;
+                        width: 70%;
+                        p{
+                            color: $p;
+                            font-size: 15px;
+                        }
+                    }
+                }
+            }
+        }
+        .linea{
+            display: flex;
+            height: 1px;
+            width: 30%;
+            border: 1px solid $redes;
+        }
+    }
+    .main-14{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+        margin: auto;
+        width: 100%;
+        height: auto;
+        background-color: $background;
+        overflow: hidden;
+        .main-15{
+            display: grid;
+            width: 100%;
+            height: 70%;
+            gap: 10px;
+            
+            grid-template-columns: repeat(3,1fr);
+            grid-template-rows: repeat(2,1fr);
+            .main-16:nth-child(1){
+                grid-column-start: span 3;
+            }
+            .main-16:nth-child(2){
+                grid-template-rows: span 1;
+            }
+            .main-16:nth-child(3){
+                grid-template-rows: span 1;
+            }
+            .main-16:nth-child(4){
+                grid-row-start: span 1;
+            }
+            .main-16:nth-child(5){
+                grid-column-start: span 3;
+            }
+            .gird-inicio{
+                width: 100%;
+                height: 300px;
+                object-fit: cover;
+                scale: 1;
+                transition: .9s ease-in-out;
+                &:hover{
+                    cursor: pointer;
+                    scale: 0.9;
+                }
+            }
+        }
+    }
+    .main-17{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 60px;
+        background-color: $background;
+        color: $mainColor;
+        .main-18{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 30px;
+            width: 70%;
+            .linea{
+                display: flex;
+                height: 1px;
+                width: 30%;
+                border: 1px solid $redes;
+            }
+        }
+    }
+    .main-19{
+        display: flex;
+        justify-content: center;
+        background-color: $background;
+        color: $mainColor;
+        .main-20{
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            gap: 6px;
+            width: 40%;
+            p{
+                color: $p;
+                font-size: 15px;
             }
         }
     }
