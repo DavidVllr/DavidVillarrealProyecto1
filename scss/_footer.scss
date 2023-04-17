@@ -67,6 +67,7 @@
         width: 80%;
         height: auto;
         justify-content: space-evenly;
+        padding: 35px;
         text-align: center;
         align-items: center;
         color: $mainColor;
@@ -78,7 +79,7 @@
             justify-content: center;
             width: 40%;
             h2{
-                font-size: 20px;
+                font-size: 26px;
             }
             a{
                 color: $mainColor;
@@ -97,7 +98,7 @@
             justify-content: center;
             width: 40%;
             h4{
-                font-size: 20px;
+                font-size: 26px;
             }
         }
     }
