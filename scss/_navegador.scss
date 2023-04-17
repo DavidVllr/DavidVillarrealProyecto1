@@ -19,7 +19,7 @@
         z-index: 2;
         }
         h1{
-            color: #ffffff;
+            color: $mainColor;
             font-size: 40px;
             font-family: $tipoLetra;
             margin-left: 40px;
@@ -31,7 +31,7 @@
             border: 0.5px solid;
             padding: 4px 12px;
             border-radius: 5px;
-            color: #ffffff;
+            color: $mainColor;
         }
         .nav-input{
             display: none;
@@ -52,7 +52,7 @@
             padding: 12px;
             font-family: 'DM Sans', sans-serif;
             font-size: 16px;
-            color: #ffffff;
+            color: $mainColor;
             padding: 8px;
             transition: .5s;
             &:hover{
@@ -62,21 +62,21 @@
     }
 
 
-@media (max-width: 992px){
+@media (max-width: 768px){
     .nav-1{
         display: flex;
         position: fixed;
         justify-content: center;
+        width: 100%;
         height: 70px;
         .nav-2{
             display: flex;
-            justify-content: space-evenly;
             width: 100%;
             height: 53px;
             .nav-titulo{
                 width: 118px;
                 h1{
-                    color: #000000cb;
+                    color: $mainColor;
                     font-size: 36px;
                     font-family: 'Montserrat', sans-serif;
                 }
@@ -92,37 +92,21 @@
                 display: flex;
                 position: absolute;
                 flex-direction: column;
-                width: 100%;
+                background-color: #8c8e90db;
+                border-bottom-right-radius: 40px;
+                border-bottom-left-radius: 40px;
+                width: 90%;
+                height: 200px;
                 z-index: 10;
-                top: 60px;
+                top: 70px;
                 clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
                 transition: clip-path 0.5s ease-in-out;
                 ol{
                     display: block;
+                    font-size: 20px;
                     li{
                         padding: 8px;
                     }
-                }
-            }
-        }
-    }
-}
-
-@media (max-width: 576px){
-    .nav-1{
-        display: flex;
-        justify-content: center;
-        .nav-2{
-            display: flex;
-            justify-content: space-between;
-            width: 100%;
-            .nav-titulo{
-                width: 118px;
-                h1{
-                    color: #000000cb;
-                    font-size: 30px;
-                    font-family: 'Montserrat', sans-serif;
-                    margin-bottom: 8px;
                 }
             }
         }
