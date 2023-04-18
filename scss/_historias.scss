@@ -1,29 +1,63 @@
+.histo-2{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-image:linear-gradient(180deg, rgba(150,95,22,0) -16%, rgb(0, 0, 0) 99%),url(../multimedia/historia/backg/album-relleno7.avif);
+    color: $mainColor;
+    .histo-3{
+        display: flex;
+        font-size: 90px;
+        justify-content: center;
+        flex-direction: column;
+        height: 400px;
+        gap: 40px;
+            p{
+                font-size: 20px;
+                font-family: 'Dancing Script', cursive;
+                color: $p;
+            }
+            h3{
+                font-family: 'EB Garamond', serif;
+            }
+            h4{
+                font-size: 18px;
+                color: $p;
+            }
+    }
+    .linea-0{
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        text-align: center;
+        color: $p;
+        gap: 40px;
+        .linea-1{
+            display: flex;
+            width: 100%;
+            justify-content: space-evenly;
+        }
+    }
+    .linea{
+        display: flex;
+        width: 70%;
+        height: 1;
+        border: 1px solid $redes;
+    }
+}
+
 .histo-1{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    .histo-2{
-        display: flex;
-        justify-content: center;
-        background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(../multimedia/historia/backg/backg-1.jpg);
-        background-size: cover;
-        text-align: center;
-        background-attachment: fixed;
-        .histo-3{
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            color: $mainColor;
-            p{
-                font-size: 20px;
-                padding: 30px;
-            }
-            h3{
-                font-size: 25px;
-            }
-        }
-    }
+    color: $mainColor;
+    background-color: $background;
     .histo-4{
         display: flex;
         justify-content: space-evenly;
@@ -47,9 +81,6 @@
         height: auto;
         padding-top: 100px;
         padding-bottom: 100px;
-        background: rgb(0,0,0);
-        background: linear-gradient(131deg, rgba(0,0,0,1) 7%, rgba(11,11,11,1) 10%, rgba(0,0,0,1) 12%, rgba(0,0,0,1) 18%, rgba(0,0,0,1) 22%, rgba(117,117,117,1) 25%, rgba(4,3,3,1) 32%);
-        color: $mainColor;
         .img-1{
             object-fit: cover;
         }
@@ -59,23 +90,6 @@
             text-align: center;
             width: 30%;
             height: auto;
-        }
-    }
-}
-
-.histo-8{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    .histo-9{
-        padding: 40px;
-        p{
-            font-size: 18px;
-        }
-        h3{
-            font-size: 25px;
-            padding: 25px;
         }
     }
 }
@@ -162,6 +176,44 @@
     }
 }
 @media (max-width: 576px){
+    .histo-2{
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        height: 100vh;
+        background-size: cover;
+        background-image:linear-gradient(180deg, rgba(150,95,22,0) -16%, rgb(0, 0, 0) 99%),url(../multimedia/historia/backg/album-relleno7.avif);
+        color: $mainColor;
+        .histo-3{
+            display: flex;
+            font-size: 90px;
+            justify-content: center;
+            flex-direction: column;
+            height: 400px;
+            gap: 40px;
+                p{
+                    font-size: 20px;
+                    font-family: 'Dancing Script', cursive;
+                    color: $p;
+                }
+                h3{
+                    font-size: 50px;
+                    font-family: 'EB Garamond', serif;
+                }
+                h4{
+                    font-size: 18px;
+                    color: $p;
+                }
+        }
+        .linea{
+            display: flex;
+            width: 70%;
+            height: 1;
+            border: 1px solid $redes;
+        }
+    }
     .histo-1{
         display: flex;
         flex-direction: column;

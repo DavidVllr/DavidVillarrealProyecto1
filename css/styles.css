@@ -603,46 +603,197 @@ span {
     height: auto;
   }
 }
-.fotos {
+.galeria-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  color: white;
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-image: linear-gradient(180deg, rgba(150, 95, 22, 0) -16%, rgb(0, 0, 0) 99%), url(../multimedia/galeria/background/background-2.avif);
+}
+.galeria-1 .galeria-2 {
   display: flex;
   justify-content: center;
   align-items: center;
+  gap: 50px;
+  width: 80%;
+  height: 70vh;
 }
-.fotos .galeria {
+.galeria-1 .galeria-2 .galeria-3 {
+  flex-direction: column;
+  width: 40%;
+  height: auto;
+  gap: 30px;
+  font-size: 80px;
+}
+.galeria-1 .galeria-2 .galeria-3 p {
+  font-size: 20px;
+  font-family: "Dancing Script", cursive;
+  color: rgba(255, 255, 255, 0.638);
+}
+.galeria-1 .galeria-2 .galeria-3 h3 {
+  font-family: "EB Garamond", serif;
+}
+.galeria-1 .galeria-2 .galeria-3 h4 {
+  font-size: 18px;
+  color: rgba(255, 255, 255, 0.638);
+}
+.galeria-1 .galeria-2 .linea {
+  display: flex;
+  width: 1px;
+  height: 60%;
+  border: 1px solid rgb(238, 133, 127);
+}
+.galeria-1 .galeria-2 .galeria-4 {
+  display: flex;
+  justify-content: center;
+  width: 40%;
+  gap: 50px;
+}
+.galeria-1 .galeria-5 {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  height: auto;
+  color: rgba(255, 255, 255, 0.638);
+}
+.galeria-1 .galeria-5 .galeria-6 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  font-size: 15px;
+}
+.galeria-1 .linea {
+  display: flex;
+  width: 70%;
+  height: 1px;
+  border: 1px solid rgb(238, 133, 127);
+}
+
+.galeria-7 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  background-color: black;
+}
+.galeria-7 .galeria-8 {
   display: grid;
-  grid-template-columns: 250px 250px 250px;
-  grid-template-rows: 250px 250px 250px;
+  width: 90%;
+  grid-template-columns: 33% 33% 33%;
+  grid-template-rows: 418px 418px 418px;
   gap: 10px;
   margin-bottom: 10px;
 }
-.fotos .galeria .img-a {
+.galeria-7 .galeria-8 .img-a {
   grid-column: 1/4;
 }
-.fotos .galeria .img-b {
+.galeria-7 .galeria-8 .img-b {
   grid-row: 2/4;
 }
-.fotos .galeria .img-f {
+.galeria-7 .galeria-8 .img-f {
   grid-column: 3/4;
 }
-.fotos .galeria img {
+.galeria-7 .galeria-8 img {
   object-fit: cover;
   border-radius: 10px;
+  width: 100%;
+  height: 100%;
 }
 
 @media (max-width: 992px) {
-  .fotos {
+  .galeria-7 {
     width: 100%;
     height: auto;
-    margin-top: 10px;
   }
-  .fotos .galeria {
+  .galeria-7 .galeria-8 {
     display: flex;
-    width: 80%;
+    width: 90%;
     height: auto;
     flex-direction: column;
   }
-  .fotos .galeria img {
+  .galeria-7 .galeria-8 img {
+    width: 100%;
     height: 300px;
+  }
+}
+@media (max-width: 768px) {
+  .galeria-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    padding-bottom: 50px;
+    width: 100%;
+    height: auto;
+    background-size: cover;
+    background-image: linear-gradient(180deg, rgba(150, 95, 22, 0) -16%, rgb(0, 0, 0) 99%), url(../multimedia/galeria/background/background-2.avif);
+  }
+  .galeria-1 .galeria-2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    width: 100%;
+    height: 100vh;
+  }
+  .galeria-1 .galeria-2 .galeria-3 {
+    flex-direction: column;
+    width: 80%;
+    height: auto;
+    gap: 30px;
+    font-size: 50px;
+  }
+  .galeria-1 .galeria-2 .galeria-3 p {
+    font-size: 20px;
+    font-family: "Dancing Script", cursive;
+    color: rgba(255, 255, 255, 0.638);
+  }
+  .galeria-1 .galeria-2 .galeria-3 h3 {
+    font-family: "EB Garamond", serif;
+  }
+  .galeria-1 .galeria-2 .galeria-3 h4 {
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.638);
+  }
+  .galeria-1 .galeria-2 .linea {
+    display: flex;
+    width: 60%;
+    height: 1px;
+    border: 1px solid rgb(238, 133, 127);
+  }
+  .galeria-1 .galeria-2 .galeria-4 {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    width: 80%;
+    gap: 50px;
+  }
+  .galeria-1 .galeria-5 {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: auto;
+    color: rgba(255, 255, 255, 0.638);
+  }
+  .galeria-1 .galeria-5 .galeria-6 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    font-size: 15px;
+  }
+  .galeria-1 .linea {
+    display: flex;
+    width: 70%;
+    height: 1px;
+    border: 1px solid rgb(238, 133, 127);
   }
 }
 .album-1 {
@@ -685,6 +836,7 @@ span {
   justify-content: space-evenly;
   align-items: center;
   text-align: center;
+  color: rgba(255, 255, 255, 0.638);
 }
 .album-1 .linea {
   display: flex;
@@ -698,13 +850,11 @@ span {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  overflow: hidden;
   margin: auto;
   width: 100%;
   padding: 40px 0;
   height: auto;
   background-color: black;
-  overflow: hidden;
   color: white;
   gap: 50px;
 }
@@ -747,32 +897,120 @@ span {
   border: 1px solid rgb(238, 133, 127);
 }
 
+.album-12 {
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  color: white;
+}
+.album-12 .album-13 {
+  display: flex;
+  width: 60%;
+  flex-direction: column;
+  text-align: center;
+  gap: 20px;
+}
+.album-12 .album-13 p {
+  color: rgba(255, 255, 255, 0.638);
+}
+
+@media (max-width: 576px) {
+  .album-1 {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-image: linear-gradient(180deg, rgba(150, 95, 22, 0) -16%, rgb(0, 0, 0) 99%), url(../multimedia/album/back-g/album-bg.avif);
+    color: white;
+  }
+  .album-1 .album-2 {
+    display: flex;
+    font-size: 60px;
+  }
+  .album-1 .album-2 .album-3 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: auto;
+    padding-top: 70px;
+    gap: 40px;
+  }
+  .album-1 .album-2 .album-3 p {
+    font-size: 20px;
+    font-family: "Dancing Script", cursive;
+    color: rgba(255, 255, 255, 0.638);
+  }
+  .album-1 .album-2 .album-3 h3 {
+    font-family: "EB Garamond", serif;
+  }
+  .album-1 .album-2 .album-3 h4 {
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.638);
+  }
+}
+.histo-2 {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-image: linear-gradient(180deg, rgba(150, 95, 22, 0) -16%, rgb(0, 0, 0) 99%), url(../multimedia/historia/backg/album-relleno7.avif);
+  color: white;
+}
+.histo-2 .histo-3 {
+  display: flex;
+  font-size: 90px;
+  justify-content: center;
+  flex-direction: column;
+  height: 400px;
+  gap: 40px;
+}
+.histo-2 .histo-3 p {
+  font-size: 20px;
+  font-family: "Dancing Script", cursive;
+  color: rgba(255, 255, 255, 0.638);
+}
+.histo-2 .histo-3 h3 {
+  font-family: "EB Garamond", serif;
+}
+.histo-2 .histo-3 h4 {
+  font-size: 18px;
+  color: rgba(255, 255, 255, 0.638);
+}
+.histo-2 .linea-0 {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.638);
+  gap: 40px;
+}
+.histo-2 .linea-0 .linea-1 {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+}
+.histo-2 .linea {
+  display: flex;
+  width: 70%;
+  height: 1;
+  border: 1px solid rgb(238, 133, 127);
+}
+
 .histo-1 {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
-.histo-1 .histo-2 {
-  display: flex;
-  justify-content: center;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../multimedia/historia/backg/backg-1.jpg);
-  background-size: cover;
-  text-align: center;
-  background-attachment: fixed;
-}
-.histo-1 .histo-2 .histo-3 {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
   color: white;
-}
-.histo-1 .histo-2 .histo-3 p {
-  font-size: 20px;
-  padding: 30px;
-}
-.histo-1 .histo-2 .histo-3 h3 {
-  font-size: 25px;
+  background-color: black;
 }
 .histo-1 .histo-4 {
   display: flex;
@@ -797,9 +1035,6 @@ span {
   height: auto;
   padding-top: 100px;
   padding-bottom: 100px;
-  background: rgb(0, 0, 0);
-  background: linear-gradient(131deg, rgb(0, 0, 0) 7%, rgb(11, 11, 11) 10%, rgb(0, 0, 0) 12%, rgb(0, 0, 0) 18%, rgb(0, 0, 0) 22%, rgb(117, 117, 117) 25%, rgb(4, 3, 3) 32%);
-  color: white;
 }
 .histo-1 .histo-6 .img-1 {
   object-fit: cover;
@@ -810,23 +1045,6 @@ span {
   text-align: center;
   width: 30%;
   height: auto;
-}
-
-.histo-8 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-.histo-8 .histo-9 {
-  padding: 40px;
-}
-.histo-8 .histo-9 p {
-  font-size: 18px;
-}
-.histo-8 .histo-9 h3 {
-  font-size: 25px;
-  padding: 25px;
 }
 
 @media (max-width: 992px) {
@@ -911,6 +1129,44 @@ span {
   }
 }
 @media (max-width: 576px) {
+  .histo-2 {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-image: linear-gradient(180deg, rgba(150, 95, 22, 0) -16%, rgb(0, 0, 0) 99%), url(../multimedia/historia/backg/album-relleno7.avif);
+    color: white;
+  }
+  .histo-2 .histo-3 {
+    display: flex;
+    font-size: 90px;
+    justify-content: center;
+    flex-direction: column;
+    height: 400px;
+    gap: 40px;
+  }
+  .histo-2 .histo-3 p {
+    font-size: 20px;
+    font-family: "Dancing Script", cursive;
+    color: rgba(255, 255, 255, 0.638);
+  }
+  .histo-2 .histo-3 h3 {
+    font-size: 50px;
+    font-family: "EB Garamond", serif;
+  }
+  .histo-2 .histo-3 h4 {
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.638);
+  }
+  .histo-2 .linea {
+    display: flex;
+    width: 70%;
+    height: 1;
+    border: 1px solid rgb(238, 133, 127);
+  }
   .histo-1 {
     display: flex;
     flex-direction: column;
