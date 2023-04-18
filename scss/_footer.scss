@@ -94,15 +94,12 @@
         }
         .footer-h{
             display: flex;
-            border: 1px solid;
-            border-radius: 50%;
-            border-color: $redes;
-            padding: 10px;
-            a{
-                color: $redes;
+            i{
+                color: $mainColor;
                 cursor: pointer;
+                transition: 1s;
                 &:hover{
-                    background-color: $redes;
+                    color: $redes;
                 }
             }
             
