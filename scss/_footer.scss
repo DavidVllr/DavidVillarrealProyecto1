@@ -67,7 +67,7 @@
         width: 80%;
         height: auto;
         justify-content: space-evenly;
-        padding: 35px;
+        margin: 35px;
         text-align: center;
         align-items: center;
         color: $mainColor;
@@ -93,6 +93,21 @@
             }
         }
         .footer-h{
+            display: flex;
+            border: 1px solid;
+            border-radius: 50%;
+            border-color: $redes;
+            padding: 10px;
+            a{
+                color: $redes;
+                cursor: pointer;
+                &:hover{
+                    background-color: $redes;
+                }
+            }
+            
+        }
+        .footer-i{
             display: flex;
             align-items: center;
             justify-content: center;
