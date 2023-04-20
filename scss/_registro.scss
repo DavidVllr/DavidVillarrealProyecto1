@@ -1,98 +1,271 @@
 .registro-1{
     display: flex;
-    align-items: center;
     justify-content: center;
-    text-align: center;
-    background: linear-gradient(220.55deg, #2e080e 0%, #000000 100%);
+    align-items: center;
+    width: 100%;
+    height: 100vh;
     color: $mainColor;
+    background-size: cover;
+    background-image:linear-gradient(180deg, rgba(150,95,22,0) -16%, rgb(0, 0, 0) 99%),url(../multimedia/registro/background.avif);
     .registro-2{
         display: flex;
-        justify-content: center;
-        border: 1px solid #00000098;
-        border-radius: 12px;
-        background-color: rgba(0, 0, 0, 0.185);
-        color: $mainColor;
-        overflow: hidden;
-        z-index: 1;
+        justify-content: space-between;
+        align-items: center;
+        width: 70%;
+        height: 60%;
+        border: 1px solid $redes;
+        border-radius: 2px;
+        margin-top: 50px;
         .registro-3{
             display: flex;
-            justify-content: space-evenly;
+            justify-content: center;
             align-items: center;
-            .registro-4{
-                display: flex;
-                flex-direction: column;
-                font-size: 20px;
-                width: 40%;
-                height: auto;
+            text-align: center;
+            flex-direction: column;
+            width: 50%;
+            height: 100%;
+            background-color: rgba(19, 19, 19, 0.456);
+            h3{
+                font-size: 40px;
+                font-family: 'EB Garamond', serif;
+                padding-top: 10px;
+                color: $redes;
             }
-            .registro-5{
+            p{
+                font-size: 17px;
+                background: linear-gradient(rgb(255, 255, 255),$redes);
+                -webkit-background-clip: text;
+                color: transparent; 
+            }
+            .registro-4{
                 display: flex;
                 align-items: center;
                 flex-direction: column;
-                font-size: 20px;
+                width: 50%;
+                gap: 30px;
+                padding-top: 40px;
                 input{
+                    width: 100%;
+                    height: 30px;
+                    border-radius: 15px;
+                    border: 2px solid $redes;
+                    &::-webkit-input-placeholder{
+                        text-align: center;
+                        line-height: 100px;
+                    }
+                }
+                a{
+                    color: $mainColor;
+                }
+            }
+        }
+        .linea{
+            border: 1px solid $redes;
+            height: 100%;
+        }
+        .registro-5{
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            align-items: center;
+            flex-direction: column;
+            width: 50%;
+            height: 100%;
+            border-radius: 5px;
+            background-color: rgba(19, 19, 19, 0.456);
+            .registro-6{
+                display: flex;
+                flex-direction: column;
+                gap: 30px;
+                padding-top: 20px;
+                h3{
+                    font-size: 40px;
+                    font-family: 'EB Garamond', serif;
+                    padding-top: 10px;
+                    color: $redes;
+                }
+                p{
+                    font-size: 17px;   
+                }
+                .registro-7{
                     display: flex;
+                    justify-content: space-evenly;
+                    padding: 30px 0;
+                    a{
+                        color: $mainColor;
+                        font-size: 25px;
+                    }
+                    .registro-8{
+                        display: flex;
+                        flex-direction: column;
+                        gap: 10px;
+                        i{
+                            background: linear-gradient(rgb(255, 255, 255),$redes);
+                            -webkit-background-clip: text;
+                            color: transparent;  
+                        }
+                    }
+                }
+            }
+            .registro-9{
+                display: flex;
+                justify-content: center;
+                width: 100%;
+                height: auto;
+                .registro-10{
+                    display: flex;
+                    justify-content: center;
                     flex-direction: column;
-                    font-size: 17px;
-                    padding: 5px;
-                    margin: 5px;
-                    border-radius: 20px;
+                    gap: 10px;
+                    button{
+                        display: block;
+                        padding: 0.5rem 1rem;
+                        width: 120px;
+                        margin: 0 auto;
+                    }
+                    p{
+                        background: linear-gradient(rgb(255, 255, 255),$redes);
+                        -webkit-background-clip: text;
+                        color: transparent; 
+                    }
                 }
             }
         }
     }
 }
-
-
 @media (max-width: 992px){
     .registro-1{
         display: flex;
-        align-items: center;
         justify-content: center;
-        text-align: center;
+        align-items: center;
         width: 100%;
         height: auto;
+        color: $mainColor;
+        background-size: cover;
+        background-image:linear-gradient(180deg, rgba(150,95,22,0) -16%, rgb(0, 0, 0) 99%),url(../multimedia/registro/background.avif);
         .registro-2{
             display: flex;
-            justify-content: center;
+            flex-direction: column;
+            align-items: center;
             width: 90%;
-            height: 80%;
-            border: 1px solid #00000098;
-            border-radius: 12px;
-            background-color: rgba(0, 0, 0, 0.185);
-            color: $mainColor;
-            padding: 40px 0px;
-            margin: 40px 0px;
+            height: auto;
+            border: 1px solid $redes;
+            border-radius: 2px;
+            margin: 70px 0;
             .registro-3{
                 display: flex;
-                justify-content: space-evenly;
-                flex-direction: column;
+                justify-content: center;
                 align-items: center;
+                text-align: center;
+                flex-direction: column;
                 width: 100%;
-                height: auto;
-                .registro-4{
-                    display: flex;
-                    flex-direction: column;
-                    font-size: 20px;
-                    width: 80%;
-                    height: auto;
-                    padding: 40px 0px;
+                height: 100vh;
+                background-color: rgba(19, 19, 19, 0.456);
+                h3{
+                    font-size: 40px;
+                    font-family: 'EB Garamond', serif;
+                    padding-top: 10px;
+                    color: $redes;
                 }
-                .registro-5{
+                p{
+                    font-size: 17px;
+                    background: linear-gradient(rgb(255, 255, 255),$redes);
+                    -webkit-background-clip: text;
+                    color: transparent; 
+                }
+                .registro-4{
                     display: flex;
                     align-items: center;
                     flex-direction: column;
-                    width: 70%;
-                    height: auto;
-                    font-size: 20px;
+                    width: 80%;
+                    gap: 30px;
+                    padding-top: 40px;
                     input{
-                        display: flex;
-                        flex-direction: column;
-                        font-size: 17px;
-                        width: 100%;
-                        padding: 5px;
-                        margin: 5px;
+                        width: 70%;
+                        height: 30px;
                         border-radius: 15px;
+                        border: 2px solid $redes;
+                        &::-webkit-input-placeholder{
+                            text-align: center;
+                            line-height: 100px;
+                        }
+                    }
+                    a{
+                        color: $mainColor;
+                    }
+                }
+            }
+            .linea{
+                border: 1px solid $redes;
+                height: 1px;
+                width: 100%;
+            }
+            .registro-5{
+                display: flex;
+                justify-content: center;
+                text-align: center;
+                align-items: center;
+                flex-direction: column;
+                width: 100%;
+                height: 100%;
+                border-radius: 5px;
+                background-color: rgba(19, 19, 19, 0.456);
+                padding: 50px 0;
+                .registro-6{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 30px;
+                    padding-top: 20px;
+                    h3{
+                        font-size: 40px;
+                        font-family: 'EB Garamond', serif;
+                        padding-top: 10px;
+                        color: $redes;
+                    }
+                    p{
+                        font-size: 17px;   
+                    }
+                    .registro-7{
+                        display: flex;
+                        justify-content: space-evenly;
+                        padding: 30px 0;
+                        a{
+                            color: $mainColor;
+                            font-size: 25px;
+                        }
+                        .registro-8{
+                            display: flex;
+                            flex-direction: column;
+                            gap: 10px;
+                            i{
+                                background: linear-gradient(rgb(255, 255, 255),$redes);
+                                -webkit-background-clip: text;
+                                color: transparent;  
+                            }
+                        }
+                    }
+                }
+                .registro-9{
+                    display: flex;
+                    justify-content: center;
+                    width: 100%;
+                    height: auto;
+                    .registro-10{
+                        display: flex;
+                        justify-content: center;
+                        flex-direction: column;
+                        gap: 10px;
+                        button{
+                            display: block;
+                            padding: 0.5rem 1rem;
+                            width: 120px;
+                            margin: 0 auto;
+                        }
+                        p{
+                            background: linear-gradient(rgb(255, 255, 255),$redes);
+                            -webkit-background-clip: text;
+                            color: transparent; 
+                        }
                     }
                 }
             }

@@ -1,111 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Arbutus+Slab&family=Dancing+Script:wght@500;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Arbutus+Slab&family=EB+Garamond:wght@600&display=swap");
-.main-2 {
-  width: 100%;
-  height: 100%;
-}
-.main-2 .main-3 {
-  width: 50%;
-  height: auto;
-}
-
-.main-4 {
-  width: 100%;
-  height: auto;
-}
-.main-4 .main-5 {
-  width: 100%;
-  height: auto;
-}
-.main-4 .main-5 .main-6 {
-  width: 33%;
-  height: auto;
-}
-.main-4 .main-5 .main-7 {
-  width: 33%;
-  height: auto;
-}
-.main-4 .main-5 .main-8 {
-  width: 33%;
-  height: auto;
-}
-
-.main-9 {
-  width: 100%;
-  height: auto;
-}
-.main-9 .main-10 {
-  width: 100%;
-  height: auto;
-}
-.main-9 .main-10 .main-11 {
-  width: 50%;
-  height: auto;
-}
-.main-9 .main-10 .main-11 img {
-  width: auto;
-  height: 400px;
-}
-
-.album-1 {
-  width: 100%;
-  height: 90vh;
-}
-.album-1 .album-2 {
-  width: 60%;
-  height: auto;
-}
-
-.album-5 {
-  width: 100%;
-  height: auto;
-}
-.album-5 .album-6 {
-  width: 60%;
-  height: auto;
-}
-.album-5 .album-7 {
-  width: 100%;
-  height: auto;
-}
-.album-5 .album-7 .album-8 {
-  width: 80%;
-  height: auto;
-}
-.album-5 .album-7 .album-8 img {
-  width: 300px;
-  height: 300px;
-}
-.album-5 .album-9 {
-  width: 100%;
-  height: auto;
-}
-.album-5 .album-9 .album-10 {
-  width: 60%;
-  height: auto;
-}
-.album-5 .album-12 {
-  width: 100%;
-  height: 50vh;
-}
-.album-5 .album-12 .album-13 {
-  width: 50%;
-  height: auto;
-}
-
-.fotos {
-  width: 100%;
-  height: auto;
-}
-.fotos .galeria {
-  width: 750px;
-  height: auto;
-}
-.fotos .galeria img {
-  width: 100%;
-  height: 100%;
-}
-
 .histo-1 {
   width: 100%;
   height: auto;
@@ -149,31 +43,6 @@
 }
 .histo-8 .histo-9 {
   width: 60%;
-  height: auto;
-}
-
-.registro-1 {
-  width: 100%;
-  height: 100vh;
-}
-.registro-1 .registro-2 {
-  width: 80%;
-  height: 80%;
-}
-.registro-1 .registro-2 .registro-3 {
-  width: 100%;
-  height: 100%;
-}
-.registro-1 .registro-2 .registro-3 .registro-4 {
-  width: 40%;
-  height: auto;
-}
-.registro-1 .registro-2 .registro-3 .registro-5 {
-  width: 40%;
-  height: auto;
-}
-.registro-1 .registro-2 .registro-3 .registro-5 input {
-  width: 100%;
   height: auto;
 }
 
@@ -300,9 +169,9 @@ span {
     border-bottom-right-radius: 40px;
     border-bottom-left-radius: 40px;
     width: 90%;
-    height: 200px;
-    z-index: 10;
-    top: 70px;
+    height: 60vh;
+    z-index: -1;
+    top: 0px;
     clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
     transition: clip-path 0.5s ease-in-out;
   }
@@ -352,7 +221,9 @@ span {
     height: 100vh;
     right: 0;
     z-index: 10;
-    top: 70px;
+    top: 0;
+    z-index: -1;
+    border-radius: 0;
     clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
     transition: clip-path 0.5s ease-in-out;
   }
@@ -361,7 +232,7 @@ span {
     font-size: 60px;
   }
   .nav-1 .nav-2 .nav-4 ol li {
-    padding: 2px;
+    padding: 1px;
   }
 }
 .footer-a {
@@ -951,6 +822,485 @@ span {
     color: rgba(255, 255, 255, 0.638);
   }
 }
+.main-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-image: linear-gradient(180deg, rgba(150, 95, 22, 0) -16%, rgb(0, 0, 0) 99%), url(../multimedia/inicio/backg1.avif);
+}
+.main-1 .main-2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 90%;
+  color: white;
+}
+.main-1 .main-2 .main-3 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 70%;
+  height: auto;
+  font-size: 80px;
+  border: 2px solid rgb(238, 133, 127);
+  padding: 50px;
+}
+.main-1 .main-2 .main-3 h3 {
+  display: block;
+  white-space: nowrap;
+  border-right: 2px solid rgba(255, 255, 255, 0.638);
+  width: 7ch;
+  font-size: 30px;
+  font-family: "Dancing Script", cursive;
+  color: rgba(255, 255, 255, 0.638);
+  animation: typing 2s steps(7), blink 0.5s infinite step-end alternate;
+  overflow: hidden;
+}
+@keyframes typing {
+  from {
+    width: 0;
+  }
+}
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+.main-1 .main-2 .main-3 p {
+  font-size: 17px;
+}
+
+.main-4 {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+  background-color: black;
+  color: white;
+  padding: 50px 0;
+}
+.main-4 .main-5 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: inherit;
+  height: auto;
+  text-align: start;
+}
+.main-4 .main-5 .linea {
+  display: flex;
+  width: 1px;
+  height: 100%;
+  border: 1px solid rgb(238, 133, 127);
+}
+.main-4 .main-5 .main-6 {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  width: 30%;
+  gap: 10px;
+}
+.main-4 .main-5 .main-6 p {
+  color: rgba(255, 255, 255, 0.638);
+  font-size: 15px;
+}
+.main-4 .main-5 .main-6 h4 {
+  font-size: 20px;
+}
+.main-4 .main-5 .main-7 {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  width: 30%;
+  gap: 10px;
+}
+.main-4 .main-5 .main-7 p {
+  color: rgba(255, 255, 255, 0.638);
+  font-size: 15px;
+}
+.main-4 .main-5 .main-7 p:nth-child(2) {
+  color: white;
+  font-size: 20px;
+}
+.main-4 .main-5 .main-7 h4 {
+  font-size: 20px;
+}
+
+.main-8 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  padding: 50px 0;
+  background-color: black;
+  gap: 40px;
+}
+.main-8 .main-9 {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  color: white;
+}
+.main-8 .main-9 .main-11 {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+}
+.main-8 .main-9 .main-11 .main-12 {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  width: 70%;
+  gap: 40px;
+}
+.main-8 .main-9 .main-11 .main-12 .main-13 {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+}
+.main-8 .main-9 .main-11 .main-12 .main-13 p {
+  color: rgba(255, 255, 255, 0.638);
+  font-size: 15px;
+}
+.main-8 .linea {
+  display: flex;
+  height: 1px;
+  width: 30%;
+  border: 1px solid rgb(238, 133, 127);
+}
+
+.main-14 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  margin: auto;
+  width: 100%;
+  height: auto;
+  background-color: black;
+  overflow: hidden;
+}
+.main-14 .main-15 {
+  display: grid;
+  width: 70%;
+  height: 70%;
+  gap: 10px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+}
+.main-14 .main-15 .main-16:nth-child(1) {
+  grid-column-start: span 3;
+}
+.main-14 .main-15 .main-16:nth-child(2) {
+  grid-template-rows: span 1;
+}
+.main-14 .main-15 .main-16:nth-child(3) {
+  grid-template-rows: span 1;
+}
+.main-14 .main-15 .main-16:nth-child(4) {
+  grid-row-start: span 1;
+}
+.main-14 .main-15 .main-16:nth-child(5) {
+  grid-column-start: span 3;
+}
+.main-14 .main-15 .gird-inicio {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  scale: 1;
+  transition: 0.9s ease-in-out;
+}
+.main-14 .main-15 .gird-inicio:hover {
+  cursor: pointer;
+  scale: 0.9;
+}
+
+.main-17 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 60px;
+  background-color: black;
+  color: white;
+}
+.main-17 .main-18 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  width: 70%;
+}
+.main-17 .main-18 .linea {
+  display: flex;
+  height: 1px;
+  width: 30%;
+  border: 1px solid rgb(238, 133, 127);
+}
+
+.main-19 {
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  color: white;
+}
+.main-19 .main-20 {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 6px;
+  width: 40%;
+}
+.main-19 .main-20 p {
+  color: rgba(255, 255, 255, 0.638);
+  font-size: 15px;
+}
+
+@media (max-width: 768px) {
+  .main-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-image: linear-gradient(180deg, rgba(150, 95, 22, 0) -16%, rgb(0, 0, 0) 99%), url(../multimedia/inicio/backg1.avif);
+  }
+  .main-1 .main-2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 90%;
+    height: auto;
+    color: white;
+  }
+  .main-1 .main-2 .main-3 {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    width: 90%;
+    height: auto;
+    border: 2px solid rgb(238, 133, 127);
+    padding: 20px;
+  }
+  .main-1 .main-2 .main-3 h3 {
+    font-size: 30px;
+    font-family: "Dancing Script", cursive;
+  }
+  .main-1 .main-2 .main-3 h2 {
+    font-size: 60px;
+    font-family: "EB Garamond", serif;
+  }
+  .main-1 .main-2 .main-3 p {
+    font-size: 16px;
+  }
+  .main-4 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    background-color: black;
+    color: white;
+    padding: 50px 0;
+  }
+  .main-4 .main-5 {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    width: inherit;
+    height: auto;
+    text-align: start;
+    gap: 30px;
+  }
+  .main-4 .main-5 .linea {
+    display: flex;
+    width: 80%;
+    height: 1px;
+    border: 1px solid rgb(238, 133, 127);
+  }
+  .main-4 .main-5 .main-6 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: auto;
+    width: 80%;
+    gap: 10px;
+  }
+  .main-4 .main-5 .main-6 p {
+    color: rgba(255, 255, 255, 0.638);
+    font-size: 15px;
+  }
+  .main-4 .main-5 .main-6 h4 {
+    font-size: 20px;
+  }
+  .main-4 .main-5 .main-7 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: auto;
+    width: 80%;
+    gap: 10px;
+  }
+  .main-4 .main-5 .main-7 p {
+    color: rgba(255, 255, 255, 0.638);
+    font-size: 15px;
+  }
+  .main-4 .main-5 .main-7 p:nth-child(2) {
+    color: white;
+    font-size: 20px;
+  }
+  .main-4 .main-5 .main-7 h4 {
+    font-size: 20px;
+  }
+}
+@media (max-width: 568px) {
+  .main-8 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    padding: 50px 0;
+    background-color: black;
+    gap: 40px;
+  }
+  .main-8 .main-9 {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    color: white;
+  }
+  .main-8 .main-9 .main-11 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+  }
+  .main-8 .main-9 .main-11 .main-12 {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+  }
+  .main-8 .main-9 .main-11 .main-12 .main-13 {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+  }
+  .main-8 .main-9 .main-11 .main-12 .main-13 p {
+    color: rgba(255, 255, 255, 0.638);
+    font-size: 15px;
+  }
+  .main-8 .linea {
+    display: flex;
+    height: 1px;
+    width: 30%;
+    border: 1px solid rgb(238, 133, 127);
+  }
+  .main-14 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    margin: auto;
+    width: 100%;
+    height: auto;
+    background-color: black;
+    overflow: hidden;
+  }
+  .main-14 .main-15 {
+    display: grid;
+    width: 100%;
+    height: 70%;
+    gap: 10px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+  }
+  .main-14 .main-15 .main-16:nth-child(1) {
+    grid-column-start: span 3;
+  }
+  .main-14 .main-15 .main-16:nth-child(2) {
+    grid-template-rows: span 1;
+  }
+  .main-14 .main-15 .main-16:nth-child(3) {
+    grid-template-rows: span 1;
+  }
+  .main-14 .main-15 .main-16:nth-child(4) {
+    grid-row-start: span 1;
+  }
+  .main-14 .main-15 .main-16:nth-child(5) {
+    grid-column-start: span 3;
+  }
+  .main-14 .main-15 .gird-inicio {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    scale: 1;
+    transition: 0.9s ease-in-out;
+  }
+  .main-14 .main-15 .gird-inicio:hover {
+    cursor: pointer;
+    scale: 0.9;
+  }
+  .main-17 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 60px;
+    background-color: black;
+    color: white;
+  }
+  .main-17 .main-18 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    width: 70%;
+  }
+  .main-17 .main-18 .linea {
+    display: flex;
+    height: 1px;
+    width: 30%;
+    border: 1px solid rgb(238, 133, 127);
+  }
+  .main-19 {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: white;
+  }
+  .main-19 .main-20 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 6px;
+    width: 40%;
+  }
+  .main-19 .main-20 p {
+    color: rgba(255, 255, 255, 0.638);
+    font-size: 15px;
+  }
+}
 .histo-2 {
   display: flex;
   justify-content: space-evenly;
@@ -1219,12 +1569,25 @@ span {
   padding: 50px;
 }
 .main-1 .main-2 .main-3 h3 {
-  font-size: 40px;
+  display: block;
+  white-space: nowrap;
+  border-right: 2px solid rgba(255, 255, 255, 0.638);
+  width: 7ch;
+  font-size: 30px;
   font-family: "Dancing Script", cursive;
   color: rgba(255, 255, 255, 0.638);
+  animation: typing 2s steps(7), blink 0.5s infinite step-end alternate;
+  overflow: hidden;
 }
-.main-1 .main-2 .main-3 h2 {
-  font-family: "EB Garamond", serif;
+@keyframes typing {
+  from {
+    width: 0;
+  }
+}
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
 }
 .main-1 .main-2 .main-3 p {
   font-size: 17px;
@@ -1659,102 +2022,277 @@ span {
 }
 .registro-1 {
   display: flex;
-  align-items: center;
   justify-content: center;
-  text-align: center;
-  background: linear-gradient(220.55deg, #2e080e 0%, #000000 100%);
+  align-items: center;
+  width: 100%;
+  height: 100vh;
   color: white;
+  background-size: cover;
+  background-image: linear-gradient(180deg, rgba(150, 95, 22, 0) -16%, rgb(0, 0, 0) 99%), url(../multimedia/registro/background.avif);
 }
 .registro-1 .registro-2 {
   display: flex;
-  justify-content: center;
-  border: 1px solid rgba(0, 0, 0, 0.5960784314);
-  border-radius: 12px;
-  background-color: rgba(0, 0, 0, 0.185);
-  color: white;
-  overflow: hidden;
-  z-index: 1;
+  justify-content: space-between;
+  align-items: center;
+  width: 70%;
+  height: 60%;
+  border: 1px solid rgb(238, 133, 127);
+  border-radius: 2px;
+  margin-top: 50px;
 }
 .registro-1 .registro-2 .registro-3 {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
+  text-align: center;
+  flex-direction: column;
+  width: 50%;
+  height: 100%;
+  background-color: rgba(19, 19, 19, 0.456);
+}
+.registro-1 .registro-2 .registro-3 h3 {
+  font-size: 40px;
+  font-family: "EB Garamond", serif;
+  padding-top: 10px;
+  color: rgb(238, 133, 127);
+}
+.registro-1 .registro-2 .registro-3 p {
+  font-size: 17px;
+  background: linear-gradient(rgb(255, 255, 255), rgb(238, 133, 127));
+  -webkit-background-clip: text;
+  color: transparent;
 }
 .registro-1 .registro-2 .registro-3 .registro-4 {
   display: flex;
-  flex-direction: column;
-  font-size: 20px;
-  width: 40%;
-  height: auto;
-}
-.registro-1 .registro-2 .registro-3 .registro-5 {
-  display: flex;
   align-items: center;
   flex-direction: column;
-  font-size: 20px;
+  width: 50%;
+  gap: 30px;
+  padding-top: 40px;
 }
-.registro-1 .registro-2 .registro-3 .registro-5 input {
+.registro-1 .registro-2 .registro-3 .registro-4 input {
+  width: 100%;
+  height: 30px;
+  border-radius: 15px;
+  border: 2px solid rgb(238, 133, 127);
+}
+.registro-1 .registro-2 .registro-3 .registro-4 input::-webkit-input-placeholder {
+  text-align: center;
+  line-height: 100px;
+}
+.registro-1 .registro-2 .registro-3 .registro-4 a {
+  color: white;
+}
+.registro-1 .registro-2 .linea {
+  border: 1px solid rgb(238, 133, 127);
+  height: 100%;
+}
+.registro-1 .registro-2 .registro-5 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+  width: 50%;
+  height: 100%;
+  border-radius: 5px;
+  background-color: rgba(19, 19, 19, 0.456);
+}
+.registro-1 .registro-2 .registro-5 .registro-6 {
   display: flex;
   flex-direction: column;
+  gap: 30px;
+  padding-top: 20px;
+}
+.registro-1 .registro-2 .registro-5 .registro-6 h3 {
+  font-size: 40px;
+  font-family: "EB Garamond", serif;
+  padding-top: 10px;
+  color: rgb(238, 133, 127);
+}
+.registro-1 .registro-2 .registro-5 .registro-6 p {
   font-size: 17px;
-  padding: 5px;
-  margin: 5px;
-  border-radius: 20px;
+}
+.registro-1 .registro-2 .registro-5 .registro-6 .registro-7 {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 30px 0;
+}
+.registro-1 .registro-2 .registro-5 .registro-6 .registro-7 a {
+  color: white;
+  font-size: 25px;
+}
+.registro-1 .registro-2 .registro-5 .registro-6 .registro-7 .registro-8 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.registro-1 .registro-2 .registro-5 .registro-6 .registro-7 .registro-8 i {
+  background: linear-gradient(rgb(255, 255, 255), rgb(238, 133, 127));
+  -webkit-background-clip: text;
+  color: transparent;
+}
+.registro-1 .registro-2 .registro-5 .registro-9 {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+}
+.registro-1 .registro-2 .registro-5 .registro-9 .registro-10 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+}
+.registro-1 .registro-2 .registro-5 .registro-9 .registro-10 button {
+  display: block;
+  padding: 0.5rem 1rem;
+  width: 120px;
+  margin: 0 auto;
+}
+.registro-1 .registro-2 .registro-5 .registro-9 .registro-10 p {
+  background: linear-gradient(rgb(255, 255, 255), rgb(238, 133, 127));
+  -webkit-background-clip: text;
+  color: transparent;
 }
 
 @media (max-width: 992px) {
   .registro-1 {
     display: flex;
-    align-items: center;
     justify-content: center;
-    text-align: center;
+    align-items: center;
     width: 100%;
     height: auto;
+    color: white;
+    background-size: cover;
+    background-image: linear-gradient(180deg, rgba(150, 95, 22, 0) -16%, rgb(0, 0, 0) 99%), url(../multimedia/registro/background.avif);
   }
   .registro-1 .registro-2 {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
     width: 90%;
-    height: 80%;
-    border: 1px solid rgba(0, 0, 0, 0.5960784314);
-    border-radius: 12px;
-    background-color: rgba(0, 0, 0, 0.185);
-    color: white;
-    padding: 40px 0px;
-    margin: 40px 0px;
+    height: auto;
+    border: 1px solid rgb(238, 133, 127);
+    border-radius: 2px;
+    margin: 70px 0;
   }
   .registro-1 .registro-2 .registro-3 {
     display: flex;
-    justify-content: space-evenly;
-    flex-direction: column;
+    justify-content: center;
     align-items: center;
+    text-align: center;
+    flex-direction: column;
     width: 100%;
-    height: auto;
+    height: 100vh;
+    background-color: rgba(19, 19, 19, 0.456);
+  }
+  .registro-1 .registro-2 .registro-3 h3 {
+    font-size: 40px;
+    font-family: "EB Garamond", serif;
+    padding-top: 10px;
+    color: rgb(238, 133, 127);
+  }
+  .registro-1 .registro-2 .registro-3 p {
+    font-size: 17px;
+    background: linear-gradient(rgb(255, 255, 255), rgb(238, 133, 127));
+    -webkit-background-clip: text;
+    color: transparent;
   }
   .registro-1 .registro-2 .registro-3 .registro-4 {
     display: flex;
-    flex-direction: column;
-    font-size: 20px;
-    width: 80%;
-    height: auto;
-    padding: 40px 0px;
-  }
-  .registro-1 .registro-2 .registro-3 .registro-5 {
-    display: flex;
     align-items: center;
     flex-direction: column;
-    width: 70%;
-    height: auto;
-    font-size: 20px;
+    width: 80%;
+    gap: 30px;
+    padding-top: 40px;
   }
-  .registro-1 .registro-2 .registro-3 .registro-5 input {
+  .registro-1 .registro-2 .registro-3 .registro-4 input {
+    width: 70%;
+    height: 30px;
+    border-radius: 15px;
+    border: 2px solid rgb(238, 133, 127);
+  }
+  .registro-1 .registro-2 .registro-3 .registro-4 input::-webkit-input-placeholder {
+    text-align: center;
+    line-height: 100px;
+  }
+  .registro-1 .registro-2 .registro-3 .registro-4 a {
+    color: white;
+  }
+  .registro-1 .registro-2 .linea {
+    border: 1px solid rgb(238, 133, 127);
+    height: 1px;
+    width: 100%;
+  }
+  .registro-1 .registro-2 .registro-5 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    background-color: rgba(19, 19, 19, 0.456);
+    padding: 50px 0;
+  }
+  .registro-1 .registro-2 .registro-5 .registro-6 {
     display: flex;
     flex-direction: column;
+    gap: 30px;
+    padding-top: 20px;
+  }
+  .registro-1 .registro-2 .registro-5 .registro-6 h3 {
+    font-size: 40px;
+    font-family: "EB Garamond", serif;
+    padding-top: 10px;
+    color: rgb(238, 133, 127);
+  }
+  .registro-1 .registro-2 .registro-5 .registro-6 p {
     font-size: 17px;
+  }
+  .registro-1 .registro-2 .registro-5 .registro-6 .registro-7 {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 30px 0;
+  }
+  .registro-1 .registro-2 .registro-5 .registro-6 .registro-7 a {
+    color: white;
+    font-size: 25px;
+  }
+  .registro-1 .registro-2 .registro-5 .registro-6 .registro-7 .registro-8 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .registro-1 .registro-2 .registro-5 .registro-6 .registro-7 .registro-8 i {
+    background: linear-gradient(rgb(255, 255, 255), rgb(238, 133, 127));
+    -webkit-background-clip: text;
+    color: transparent;
+  }
+  .registro-1 .registro-2 .registro-5 .registro-9 {
+    display: flex;
+    justify-content: center;
     width: 100%;
-    padding: 5px;
-    margin: 5px;
-    border-radius: 15px;
+    height: auto;
+  }
+  .registro-1 .registro-2 .registro-5 .registro-9 .registro-10 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .registro-1 .registro-2 .registro-5 .registro-9 .registro-10 button {
+    display: block;
+    padding: 0.5rem 1rem;
+    width: 120px;
+    margin: 0 auto;
+  }
+  .registro-1 .registro-2 .registro-5 .registro-9 .registro-10 p {
+    background: linear-gradient(rgb(255, 255, 255), rgb(238, 133, 127));
+    -webkit-background-clip: text;
+    color: transparent;
   }
 }
 

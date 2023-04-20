@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/7010528a76.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="../css/styles.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>Galeria</title>
     <meta name="description" content="Galería de imágenes en reconocimiento a los sucesos más impresionantes de cada artista y su paso en el escenario, también un gran cantidad de autores en sus comienzos al mundo musical">
 </head>
@@ -38,7 +39,7 @@
         <div class="galeria-1">
             <div class="galeria-2">
                 <div class="galeria-3">
-                    <p>Recuerdos </p>
+                    <p>Recuerdos</p>
                     <h3>G<span>a</span>l<span>e</span>ria</h3> 
                     <h4>Mejores Momentos</h4> 
                 </div>
@@ -137,7 +138,8 @@
             </div>
         </div>
         <div class="main-19">
-            <div class="main-20">
+            <div class="main-20" data-aos="fade-up"
+            data-aos-anchor-placement="center-center">
                 <h4>Un lindo recuerdo que siempre vale la pena volver a vivir</h4>
                 <h2>Music<span>Dv</span></h2>
                 <P>Siempre junto a ti</P>
@@ -186,5 +188,11 @@
             </div>
         </div>
     </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            once: true,
+        });
+    </script>
 </body>
 </html>

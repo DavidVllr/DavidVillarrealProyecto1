@@ -96,9 +96,9 @@
                 border-bottom-right-radius: 40px;
                 border-bottom-left-radius: 40px;
                 width: 90%;
-                height: 200px;
-                z-index: 10;
-                top: 70px;
+                height: 60vh;
+                z-index: -1;
+                top: 0px;
                 clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
                 transition: clip-path 0.5s ease-in-out;
                 ol{
@@ -148,14 +148,16 @@
                 height: 100vh;
                 right: 0;
                 z-index: 10;
-                top: 70px;
+                top: 0;
+                z-index: -1;
+                border-radius: 0;
                 clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
                 transition: clip-path 0.5s ease-in-out;
                 ol{
                     display: block;
                     font-size: 60px;
                     li{
-                        padding: 2px;
+                        padding: 1px;
                     }
                 }
             }

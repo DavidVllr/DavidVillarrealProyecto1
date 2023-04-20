@@ -23,12 +23,22 @@
             border: 2px solid $redes;
             padding: 50px;
             h3{
-                font-size: 40px;
+                display: block;
+                white-space: nowrap;
+                border-right: 2px solid $p;
+                width: 7ch;
+                font-size: 30px;
                 font-family: 'Dancing Script', cursive;
                 color: $p;
-            }
-            h2{
-                font-family: 'EB Garamond', serif;
+                animation: typing 2s steps(7),
+                blink .5s infinite step-end alternate;
+                overflow: hidden;
+                @keyframes typing {
+                    from { width: 0}
+                }
+                @keyframes blink {
+                    50% { border-color:  transparent;}
+                }
             }
             p{
                 font-size: 17px
